@@ -1,0 +1,4 @@
+6. (On ne considère que les classes suivantes : Identite, Identite4, OrdreIdentite, OrdrePrenomsNom, OrdreNomPrenoms, PrenomsUtilises, UnSeulPrenom, LesDeuxPrenoms)
+
+- SRP est respecté : chaque classe à une unique responsabilité (OrdreIdentite gère les ordres d'affichage, PrenomsUtilises gère les prénoms utilisés etc ...)
+- OCP est respecté : si on veut ajouter un ordre ou une règle d'affichage des prénoms, on peut créer une nouvelle classe sans modifier les classes existantes.

@@ -1,0 +1,16 @@
+1.
+
+Test réussi.
+Test réussi.
+
+2. 
+
+La 2e ligne : on ne peut affecter une instance d'un super-type (IntervalleOuvert) à une variable déclaré dans un sous-type (IntervalleFerme).
+
+3.
+
+affiche "ce n'est pas un intervalle ouvert". Ca passe la compil car on peut affecter une instance d'un sous-type à une variable déclaré dans son super-type. LSP est violé : on ne peut pas substituer une instance d'un sous-type en conservant un comportement compatible avec le super-type. 
+
+6.
+
+Cette fois çi, LSP est respecté.

@@ -1,0 +1,14 @@
+1.1 
+Il faut ajouter l'attribut 'String message', le constructeur 'Evenement(String message) et compléter la méthode afficher.
+
+1.2 
+OCP est violé : pour modifier le comportement de la Classe Evenement, on doit changer son code.
+
+1.3 
+Il faut faire une interface Evenement avec la méthode abstraite 'afficher()' puis deux classes EvenementSouris et EvenementClavier qui implémente Evenement.
+
+1.5
+Remplacer 'new Evenement(10,10, Evenement.Bouton.Gauche)'  par 'new EvenementSouris(10,10, EvenementSouris.Bouton.Gauche)' (ainsi que les 3 ligne suivantes)
+
+1.6
+Non, OCP est maintenant respecté : il suffit d'écrire une classe EvenementMessage pour compléter la gestion des événements. 
